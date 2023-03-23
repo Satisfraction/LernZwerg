@@ -51,16 +51,16 @@ class MainWindow(QMainWindow):
         file_name, _ = QFileDialog.getOpenFileName(self, "Open File", "", "Text Files (*.txt *.pdf)")
 
         if file_name:
-            with open(file_name, "r") as f:
-                file_content = f.read()
+            with open(file_name, "r", encoding="utf-8") as f:
+                file_content = f.read().decode("utf-8")
                 self.text_edit.setText(file_content)
 
     def save_file(self):
         file_name, _ = QFileDialog.getSaveFileName(self, "Save File", "", "Text Files (*.txt)")
 
         if file_name:
-            with open(file_name, "w") as f:
-                file_content = self.text_edit.toPlainText()
+            with open(file_name, "w", encoding="utf-8") as f:
+                file_content = self.text_edit.toPlainText().encode("utf-8")
                 f.write(file_content)
 
     def clear_text(self):
