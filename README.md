@@ -2,7 +2,7 @@
 
 ## Einführung
 
-LernZwerg ist ein Tool, das als Lernhilfe für Studenten und Schüler entwickelt wurde. Es bietet eine einfache Benutzeroberfläche zum Öffnen, Bearbeiten und Speichern von Textdateien sowie eine Text-to-Speech-Funktion, mit der der Benutzer den Text in der Datei hören kann.
+LernZwerg ist ein Tool, das als Lernhilfe für Schüler entwickelt wurde. Es bietet eine einfache Benutzeroberfläche zum Öffnen, Bearbeiten und Speichern von Textdateien sowie eine Text-to-Speech-Funktion, mit der der Benutzer den Text in der Datei hören kann.
 
 ## Installation
 
@@ -44,7 +44,7 @@ LernZwerg unterstützt die folgenden Dateiformate:
 
 ## Fazit
 
-LernZwerg ist ein einfach zu bedienendes Tool, das Studenten und Schülern dabei helfen kann, ihre Lese- und Schreibfähigkeiten zu verbessern. Es bietet eine einfache Benutzeroberfläche und eine Text-to-Speech-Funktion, die es dem Benutzer ermöglicht, den Text in einer Datei zu hören.
+LernZwerg ist ein einfach zu bedienendes Tool, das Schülern dabei helfen kann, ihre Lese- und Schreibfähigkeiten zu verbessern. Es bietet eine einfache Benutzeroberfläche und eine Text-to-Speech-Funktion, die es dem Benutzer ermöglicht, den Text in einer Datei zu hören.
 
 ---
 
