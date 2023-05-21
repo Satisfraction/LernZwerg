@@ -1,21 +1,57 @@
 # LernZwerg
 
-Der LernZwerg ist ein Tool, das speziell für Schulkinder entwickelt wurde, um ihnen beim Auswendiglernen von Texten zu helfen. Mit dieser Anwendung können Schülerinnen und Schüler Texte in der Anwendung öffnen, bearbeiten und als Audio-Datei abspielen, um sich den Inhalt besser einzuprägen.
+## Einführung
 
-Benötigte Pip-Installationen:
+LernZwerg ist ein Tool, das als Lernhilfe für Studenten und Schüler entwickelt wurde. Es bietet eine einfache Benutzeroberfläche zum Öffnen, Bearbeiten und Speichern von Textdateien sowie eine Text-to-Speech-Funktion, mit der der Benutzer den Text in der Datei hören kann.
 
-'gtts'
-Um das Programm auszuführen, führen Sie bitte den folgenden Befehl aus:
+## Installation
 
-pip install gtts
+Um LernZwerg zu verwenden, benötigen Sie Python 3 und die folgenden Python-Bibliotheken:
 
-Um die Anwendung zu starten, führen Sie bitte das LernZwerg.py-Programm aus.
+- PySide2
+- gtts
+- pyttsx3
 
-Funktionen:
+Sie können diese Bibliotheken einfach über pip installieren:
 
-Öffnen und Speichern von Textdateien
-Texteingabe in die Anwendung
-Abspielen von Text als Audio-Datei
-Löschen des Textes in der Anwendung
+bash pip install PySide2 gtts pyttsx3 '''
 
-Ich hoffe, dass der LernZwerg Schülern dabei helfen wird, sich Texte leichter einzuprägen.
+## Verwendung
+
+Nach der Installation können Sie LernZwerg ausführen, indem Sie die Datei LernZwerg.py ausführen:
+
+bash  python LernZwerg.py
+
+### Benutzeroberfläche
+
+Die Benutzeroberfläche von LernZwerg besteht aus einem Text-Editor-Fenster und einer Toolbar. Die Toolbar enthält folgende Schaltflächen:
+
+- **Datei öffnen**: Öffnet eine Textdatei, die im Text-Editor angezeigt werden soll.
+- **Datei speichern**: Speichert den Inhalt des Text-Editors in einer Textdatei.
+- **Text löschen**: Löscht den Inhalt des Text-Editors.
+- **Play**: Konvertiert den Text im Text-Editor in Sprache und spielt die Sprachausgabe ab.
+
+### Text-to-Speech
+
+LernZwerg verwendet die Bibliothek gtts für die Text-to-Speech-Funktion. Um die Sprachausgabe zu ändern, müssen Sie die Sprachoption in der Toolbar auswählen.
+
+### Dateiformate
+
+LernZwerg unterstützt die folgenden Dateiformate:
+
+- .txt
+- .pdf
+
+## Fazit
+
+LernZwerg ist ein einfach zu bedienendes Tool, das Studenten und Schülern dabei helfen kann, ihre Lese- und Schreibfähigkeiten zu verbessern. Es bietet eine einfache Benutzeroberfläche und eine Text-to-Speech-Funktion, die es dem Benutzer ermöglicht, den Text in einer Datei zu hören.
+
+---
+
+## Autor: 
+
+Satisfraction
+
+## Lizenz: 
+
+MIT
